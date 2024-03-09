@@ -1,0 +1,89 @@
+/*
+#myButton {
+    background-color: blue;
+}
+
+#myName {
+    color: yellow;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+#myText {
+    color: black;
+    border-color: blue;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+*/
+
+/*------------ CSS FOR COUNTING PROGRAM ------------*/
+/*
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(14, 90, 145);
+    color: white;
+    border-color: black;
+    border: 20px;
+    margin-top: 80px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#buttonContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+button {
+    display: inline-block;
+    border: black 10px;
+    background-color: aqua;
+    border-radius: 40px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    cursor: pointer;
+  
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.temperature-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Optional: Add some margin between the temperature options and the text input */
+  }
+  
+  .temperature-option {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Optional: Add some margin between the radio buttons */
+  }
+
+  #tempBox {
+    width: 100px;
+    height: 5px;
+    padding: 5px;
+  }
